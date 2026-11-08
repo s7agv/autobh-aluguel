@@ -2,23 +2,6 @@
 
 # 🚗 Sistema de Aluguel de Carros 👨‍💻
 
-> [!NOTE]
-> Sistema web para efetuar, consultar, modificar e cancelar pedidos de aluguel de automóveis, com análise financeira, execução de contrato e crédito concedidos por agentes (empresas e bancos).
-
-<table>
-  <tr>
-    <td width="800px">
-      <div align="justify">
-        Protótipo do <b>Laboratório 02</b> de <b>Desenvolvimento de Interfaces Web (DIW)</b>, PUC Minas. Clientes se cadastram, escolhem um carro e enviam pedidos; agentes avaliam os pedidos dos seus próprios carros. Feito com <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript</b>, <b>Bootstrap 5</b> e <b>JSON Server</b> consumido via <b>Fetch API</b>.
-      </div>
-    </td>
-    <td>
-      <img src="https://joaopauloaramuni.github.io/image/cc-puc.jpg" alt="Logo do Projeto" width="120px"/>
-    </td>
-  </tr>
-</table>
-
----
 
 ## 🚧 Status do Projeto
 
