@@ -12,6 +12,9 @@
         Protótipo do <b>Laboratório 02</b> de <b>Desenvolvimento de Interfaces Web (DIW)</b>, PUC Minas. Clientes se cadastram, escolhem um carro e enviam pedidos; agentes avaliam os pedidos dos seus próprios carros. Feito com <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript</b>, <b>Bootstrap 5</b> e <b>JSON Server</b> consumido via <b>Fetch API</b>.
       </div>
     </td>
+    <td>
+      <img src="https://joaopauloaramuni.github.io/image/cc-puc.jpg" alt="Logo do Projeto" width="120px"/>
+    </td>
   </tr>
 </table>
 
