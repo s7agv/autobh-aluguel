@@ -1,7 +1,4 @@
----
-
 # 🚗 Sistema de Aluguel de Carros 👨‍💻
-
 
 ## 🚧 Status do Projeto
 
@@ -22,8 +19,6 @@
 - [Testes](#-testes)
 - [Documentações utilizadas](#-documentações-utilizadas)
 - [Autores](#-autores)
-- [Contribuição](#-contribuição)
-- [Agradecimentos](#-agradecimentos)
 - [Licença](#-licença)
 
 ---
@@ -88,11 +83,6 @@ O arquivo [`diagramas.odt`](./diagramas.odt) reúne os quatro diagramas em duas 
 3. Diagrama de Pacotes (Visão Lógica)
 4. Diagrama de Componentes
 
----: | :---: |
-| <img src="img/casos-de-uso.png" alt="Diagrama de Casos de Uso" width="380px"> | <img src="img/classes.png" alt="Diagrama de Classes" width="380px"> |
-| **Pacotes (Visão Lógica)** | **Componentes** |
-| <img src="img/pacotes.png" alt="Diagrama de Pacotes" width="380px"> | <img src="img/componentes.png" alt="Diagrama de Componentes" width="380px"> |
-
 ---
 
 ## 🔧 Instalação e Execução
@@ -150,12 +140,6 @@ Não se aplica: protótipo executado localmente (JSON Server na porta `3000`).
 ## 🎥 Demonstração
 
 As capturas de tela estão em [`prints-funcionamento.odt`](./prints-funcionamento.odt): login do cliente, criação e edição de conta, frota, criação de pedido de aluguel, conferência e alteração do pedido, e a tela de aprovação de pedidos do agente.
-
----: | :---: |
-| **Login (`login.html`)** | **Frota e pop-up de aluguel (`index.html`)** |
-| <img src="img/tela-login.png" alt="Login" width="380px"> | <img src="img/tela-frota.png" alt="Frota" width="380px"> |
-| **Meus Pedidos (`pedidos.html`)** | **Avaliação do agente (`agente.html`)** |
-| <img src="img/tela-pedidos.png" alt="Pedidos" width="380px"> | <img src="img/tela-agente.png" alt="Agente" width="380px"> |
 
 ---
 
