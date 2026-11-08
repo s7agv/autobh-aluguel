@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AutoBH Locadora - Aluguel de Carros</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="auth.js"></script>
+</head>
+<body>
+
+<nav id="toc"></nav>
+
+<main>
+  <header id="d1">
+    <h1>AutoBH Locadora</h1>
+    <p>Aluguel de carros para o dia a dia. Entre para continuar.</p>
+  </header>
+
+  <section id="login">
+    <div class="btn-group w-100 mb-3">
+      <button type="button" id="t-cliente" class="btn btn-outline-primary active">Sou cliente</button>
+      <button type="button" id="t-agente" class="btn btn-outline-primary">Sou agente</button>
+    </div>
+
+    <form id="form-cliente-login">
+      <fieldset>
+        <legend>Entrar como Cliente:</legend>
+        CPF: <input type="text" name="cpf" class="fw" placeholder="000.000.000-00" required><br>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+        <a href="cadastro.html" class="btn btn-link">Criar conta</a>
+        <p class="dica">Demonstração: CPF 111.111.111-11 (Ana Souza).</p>
+      </fieldset>
+    </form>
+
+    <form id="form-agente-login" hidden>
+      <fieldset>
+        <legend>Entrar como Agente:</legend>
+        Agente: <select name="agenteId" class="fw" required></select><br>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </fieldset>
+    </form>
+  </section>
+
+  <footer>
+    <p>AutoBH Locadora - Atendimento de segunda a sábado, das 8h às 18h</p>
+    <p>Copyright GRS 2026 - Todos direitos reservados</p>
+  </footer>
+</main>
+
+<script src="api.js"></script>
+<script src="login.js"></script>
+</body>
+</html>

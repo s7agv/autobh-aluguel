@@ -1,0 +1,224 @@
+{
+  "clientes": [
+    {
+      "id": "2",
+      "rg": "MG-23.456.789",
+      "cpf": "222.222.222-22",
+      "nome": "Bruno Lima",
+      "endereco": "Av. B, 200 - Contagem",
+      "profissao": "Professor",
+      "rendimentos": [
+        {
+          "empregador": "PUC Minas",
+          "valor": 6000
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "rg": "MG-34.567.890",
+      "cpf": "333.333.333-33",
+      "nome": "Carla Dias",
+      "endereco": "Rua C, 300 - Betim",
+      "profissao": "Advogada",
+      "rendimentos": [
+        {
+          "empregador": "Dias & Assoc.",
+          "valor": 9500
+        }
+      ]
+    },
+    {
+      "nome": "ze mano",
+      "rg": "3456789",
+      "cpf": "123.456.789-18",
+      "endereco": "123 rua street",
+      "profissao": "ascensorista",
+      "rendimentos": [
+        {
+          "empregador": "google",
+          "valor": 345.99
+        },
+        {
+          "empregador": "classified",
+          "valor": 9762322.32
+        },
+        {
+          "empregador": "Burkina Faso",
+          "valor": 0.33
+        }
+      ],
+      "id": "JInjTWZmsO4"
+    },
+    {
+      "nome": "Gustavo Ramos Starling",
+      "rg": "703.386.816-20",
+      "cpf": "703.386.816-20",
+      "endereco": "Rua Fernão Dias, 634, casa 7 casa E, Casa Branca, Belo Horizonte, Minas Gerais, 31050-294",
+      "profissao": "Universitário",
+      "rendimentos": [
+        {
+          "empregador": "PUC Minas",
+          "valor": 0
+        },
+        {
+          "empregador": "Mamãe",
+          "valor": 3050
+        }
+      ],
+      "id": "VNtvXLcxg74"
+    }
+  ],
+  "automoveis": [
+    {
+      "id": "2",
+      "matricula": "M002",
+      "ano": 2021,
+      "marca": "VW",
+      "modelo": "Polo",
+      "placa": "DEF-4G56",
+      "proprietario": "Banco",
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/2019_Volkswagen_Polo_1.6_MSi_Comfortline_%28Chile%29.jpg?width=640",
+      "diaria": 140,
+      "proprietarioId": "2"
+    },
+    {
+      "id": "3",
+      "matricula": "M003",
+      "ano": 2023,
+      "marca": "Chevrolet",
+      "modelo": "Onix",
+      "placa": "GHI-7J89",
+      "proprietario": "Empresa",
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Chevrolet_Onix_Turbo_LTZ_%28Chile%29_front_view_%28cropped%29.jpg?width=640",
+      "diaria": 130,
+      "proprietarioId": "1"
+    },
+    {
+      "id": "5",
+      "matricula": "M005",
+      "ano": 2024,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "placa": "NOP-3Q45",
+      "proprietario": "Banco",
+      "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Corolla_at_2019_SF_Auto_Show.jpg?width=640",
+      "diaria": 210,
+      "proprietarioId": "2"
+    },
+    {
+      "matricula": "39e5y",
+      "ano": 1990,
+      "marca": "Nissan",
+      "modelo": "Frontier",
+      "placa": "NIS3A32",
+      "diaria": 44.73,
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1KXgIvd7AJhF13xvqYdhI4YHT-BqhzIy4Tw1LS9MVwzCWNZcLfUHlsSWa&s=10",
+      "proprietario": "Banco",
+      "proprietarioId": "2",
+      "id": "Iq2wx-RrM-g"
+    },
+    {
+      "matricula": "H3LLC4T",
+      "ano": 2019,
+      "marca": "Dodge",
+      "modelo": "Charger 392",
+      "placa": "Não disponível",
+      "diaria": 392.89,
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6pfO6qSmGSq04sRi7WEl0oi0cM7uQM8qn9e_0a3xLK9buf33MPsJZkyS&s=10",
+      "proprietario": "Banco",
+      "proprietarioId": "2",
+      "id": "f_ulbfQf4dM"
+    },
+    {
+      "matricula": "H0U53",
+      "ano": 1990,
+      "marca": "Casa",
+      "modelo": "motorizada 33m2",
+      "placa": "C4S4M070R",
+      "diaria": 455,
+      "foto": "https://www.startupselfie.net/wp-content/uploads/2024/08/Motorized-Tiny-House-Off-road-Tracks.jpg",
+      "proprietario": "Empresa",
+      "proprietarioId": "1",
+      "id": "8vqs4OyBY-4"
+    }
+  ],
+  "agentes": [
+    {
+      "id": "1",
+      "nome": "LocaMinas Ltda",
+      "tipo": "Empresa"
+    },
+    {
+      "id": "2",
+      "nome": "Banco Mineiro",
+      "tipo": "Banco"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "2",
+      "clienteId": "2",
+      "automovelId": "2",
+      "data": "2026-11-02",
+      "status": "Parecer Positivo - Contrato Executado",
+      "agenteId": "2",
+      "contratoCredito": "CR-2026-0042 (R$ 45.000)"
+    },
+    {
+      "id": "3",
+      "clienteId": "3",
+      "automovelId": "3",
+      "data": "2026-11-03",
+      "status": "Cancelado",
+      "agenteId": null,
+      "contratoCredito": null
+    },
+    {
+      "automovelId": "3",
+      "data": "2026-11-20",
+      "clienteId": "JInjTWZmsO4",
+      "status": "Parecer Positivo - Contrato Executado",
+      "agenteId": "1",
+      "contratoCredito": null,
+      "id": "ioFiZV2DqMA"
+    },
+    {
+      "automovelId": "5",
+      "data": "2026-11-17",
+      "clienteId": "JInjTWZmsO4",
+      "status": "Cancelado",
+      "agenteId": null,
+      "contratoCredito": null,
+      "id": "jNnNuDgrk1s"
+    },
+    {
+      "automovelId": "8vqs4OyBY-4",
+      "data": "2027-01-11",
+      "clienteId": "JInjTWZmsO4",
+      "status": "Parecer Positivo - Contrato Executado",
+      "agenteId": "1",
+      "contratoCredito": null,
+      "id": "o_xma21YzIY"
+    },
+    {
+      "automovelId": "8vqs4OyBY-4",
+      "data": "2026-11-23",
+      "clienteId": "VNtvXLcxg74",
+      "status": "Parecer Negativo",
+      "agenteId": "1",
+      "contratoCredito": null,
+      "id": "JbzDHFd0VdI"
+    },
+    {
+      "automovelId": "5",
+      "data": "2026-11-14",
+      "clienteId": "JInjTWZmsO4",
+      "status": "Pendente",
+      "agenteId": null,
+      "contratoCredito": null,
+      "id": "MsbJnlLH7Q8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
